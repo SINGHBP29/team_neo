@@ -83,8 +83,12 @@ DATABASES = {
     }
 }
 
-LOGIN_REDIRECT_URL = '/'  # Redirect to the homepage after login
-LOGOUT_REDIRECT_URL = '/login/'  # Redirect to the login page after logout
+# LOGIN_REDIRECT_URL = '/'  # Redirect to the homepage after login
+# LOGOUT_REDIRECT_URL = '/login/'  # Redirect to the login page after logout
+LOGIN_URL = '/'  # URL for the login page
+LOGIN_REDIRECT_URL = '/dashboard/'  # Redirect to dashboard after login
+LOGOUT_REDIRECT_URL = '/'  # Redirect to login after logout
+
 
 # Twilio configuration
 # TWILIO_ACCOUNT_SID = 'your_twilio_account_sid'
