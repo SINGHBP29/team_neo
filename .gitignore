@@ -1,1 +1,6 @@
 env/
+care_eco/__pycache__/
+vote/__pycache__/
+vote/migrations/__pycache__/
+
+
